@@ -5,8 +5,8 @@ import re
 
 ExecPath = os.getcwd()
 CommitIDPath = os.path.join(ExecPath, ".commit")
-CmdGetCommitIDPath = os.path.join(ExecPath, "GetCommitID.cmd")
-CmdUpdateSourcePath = os.path.join(ExecPath, "UpdateSource.cmd")
+CmdGetCommitIDPath = os.path.join(ExecPath, "GetCommitID.bat")
+CmdUpdateSourcePath = os.path.join(ExecPath, "UpdateSource.bat")
 
 
 def check_updated():
